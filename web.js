@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
 var infile = "index.html";
 
-var buf = fs.readFileSync(infile);
+//var buf = fs.readFileSync(infile);
 
 //var out = buf.toString('utf-8', 0, 27);
 
