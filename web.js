@@ -4,12 +4,12 @@ var app = express.createServer(express.logger());
 
 var infile = "index.html";
 
-//var buf = fs.readFileSync(infile);
+var rdfile = fs.readFileSync(infile, 'utf-8');
 
 //var out = buf.toString('utf-8', 0, 27);
 
 app.get('/', function(request, response) {
-  response.send('provaprova');
+  response.send(rdfile);
 });
 
 var port = process.env.PORT || 5000;
