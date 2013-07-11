@@ -26,9 +26,9 @@ var program = require('commander');
 var cheerio = require('cheerio');
 var rest = require('restler');
 var sys = require('util');
-var HTMLFILE_DEFAULT = "index.html";
+//var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
-var URL_DEFAULT = "http://fierce-reaches-1073.herokuapp.com";
+//var URL_DEFAULT = "http://fierce-reaches-1073.herokuapp.com";
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
